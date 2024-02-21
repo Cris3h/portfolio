@@ -3,45 +3,9 @@ import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 import Link from "next/link";
+import { TAB_DATA } from "../utils";
 
 
-const TAB_DATA = [
-    {
-        title:'Skills',
-        id:'skills',
-        content: (
-            <ul>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>PostgreSQL</li>
-                <li>Sequelize</li>
-                <li>JavaScript</li>
-                <li>ReactJS</li>
-            </ul>
-        )
-    },
-    {
-        title:'Certifications',
-        id:'certification',
-        content: (
-            <ul>
-                <li>FullStack Web Developer (PERN) - Henry Bootcamp</li>
-            </ul>
-        )
-    },
-    {
-        title:'Experience',
-        id:'experience',
-        content: (
-            <ul>
-                <li>FS Development - E-commerce <Link href={'https://snykers.vercel.app/'} target="_blank" rel="noopener noreferrer" className="text-purple-300 ">Snykers</Link></li>
-                <li>SPA Dogs encyclopedia</li>
-                <li>SPA Pokemon encyclopedia</li>
-                <li>SPA Breast Cancer awareness</li>
-            </ul>
-        )
-    },
-]
 
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");

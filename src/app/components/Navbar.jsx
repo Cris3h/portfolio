@@ -5,7 +5,6 @@ import NavLink from "./NavLink";
 import {Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import MenuOverlay from "./MenuOverlay";
 
-
 const navLinks = [
   {
     title: "About",
@@ -20,7 +19,6 @@ const navLinks = [
     path: "#contact",
   },
 ];
-
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
 
