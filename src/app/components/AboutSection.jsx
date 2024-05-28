@@ -2,7 +2,6 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
-import Link from "next/link";
 import { TAB_DATA } from "../utils";
 
 const AboutSection = () => {

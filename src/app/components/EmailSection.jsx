@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkdinIcon from "../../../public/linkedin-icon.svg";
-import ButtonSubmit from "./ButtonSubmit";
 
 const EmailSection = () => {
   const [email, setEmail] = useState('')

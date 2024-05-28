@@ -1,5 +1,4 @@
 import { Resend } from 'resend';
-import EmailSection from '@/app/components/EmailSection';
 import { NextResponse } from 'next/server';
 
 const resend = new Resend('re_NXpBJXHk_7YCtjkUcUaJTKX42aA8snRf8')
