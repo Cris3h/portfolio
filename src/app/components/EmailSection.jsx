@@ -21,7 +21,6 @@ const EmailSection = () => {
     }) 
 
     const data = await response.json();
-    console.log({submit: data})
   }
 
   return (

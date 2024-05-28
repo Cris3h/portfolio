@@ -142,6 +142,17 @@ export const TAB_DATA = [
             To Do list with Auth method
           </Link>
         </li>
+        <li>
+        Dosage guide - 
+          <Link
+          href={'https://drhelper.vercel.app/'}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-purple-300 "
+          >
+            Dr Dosage - the pediatric helper you were looking for
+          </Link>
+        </li>
       </ul>
     ),
   },

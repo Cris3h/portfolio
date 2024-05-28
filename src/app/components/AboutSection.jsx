@@ -21,7 +21,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
           <p className="text-base md:text-lg">
-            Welcome to my corner of the digital world! I'm Cris a passionate full stack developer immersed in the
+            Welcome to my corner on the digital world! I'm Cris a passionate full stack developer immersed in the
             dynamic world of technology. With expertise in the PERN stack, I
             thrive on crafting innovative solutions that push boundaries and
             shape the future. My journey into tech began unconventionally, with
