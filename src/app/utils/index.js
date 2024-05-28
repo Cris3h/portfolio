@@ -3,58 +3,59 @@ import Link from "next/link";
 export const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "My very first portfolio",
+    description: "Minimalistic Portfolio",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Cris3h/portfolio-cv",
+    previewUrl: "https://cris3h.github.io/portfolio-cv/portfolio/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "E-commerce Skykers",
+    description: "E-commerce w admin/user functions",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/snYKersCompany/shoes-eComerce",
+    previewUrl: "https://snykers.vercel.app/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Dr Dosage",
+    description: "Pediatric dosis helper",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Cris3h/dosis",
+    previewUrl: "https://drhelper.vercel.app/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "To Do APP",
+    description: "Simple To Do app with auth login based on cookies",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Cris3h/Auth-ToDo-Client",
+    previewUrl: "https://auth-to-do-client.vercel.app/",
+
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Liston Rosa - Pink Ribbon",
+    description: "Breast Cancer awareness (BETA test || mobile designe)",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/liston-rosa/liston-rosa-front",
+    previewUrl: "https://liston-rosa-front.vercel.app/",
   },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+  // {
+  //   id: 6,
+  //   title: "Full-stack Roadmap",
+  //   description: "Project 5 description",
+  //   image: "/images/projects/6.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "/",
+  //   previewUrl: "/",
+  // },
 ];
 
 export const TAB_DATA = [
@@ -87,7 +88,7 @@ export const TAB_DATA = [
     content: (
       <ul>
         <li>
-          FS Development - E-commerce{" "}
+          E-commerce{" "}
           <Link
             href={"https://snykers.vercel.app/"}
             target="_blank"
@@ -97,9 +98,50 @@ export const TAB_DATA = [
             Snykers
           </Link>
         </li>
-        <li>SPA Dogs encyclopedia</li>
-        <li>SPA Pokemon encyclopedia</li>
-        <li>SPA Breast Cancer awareness</li>
+        <li>
+          <Link
+            href={"https:"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-purple-300 "
+          >
+            Dogs
+          </Link>{" "}
+          encyclopedia
+        </li>
+        <li>
+          {" "}
+          <Link
+            href={"https:"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-purple-300 "
+          >
+            Pokemon
+          </Link>{" "}
+          encyclopedia
+        </li>
+        <li>
+          {" "}
+          <Link
+            href={"https:"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-purple-300 "
+          >
+            Breast Cancer awareness
+          </Link>
+        </li>
+        <li>
+          <Link
+            href={"https://auth-to-do-client.vercel.app/"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-purple-300 "
+          >
+            To Do list with Auth method
+          </Link>
+        </li>
       </ul>
     ),
   },

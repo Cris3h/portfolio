@@ -1,9 +1,12 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import NavLink from "./NavLink";
-import {Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import MenuOverlay from "./MenuOverlay";
+import {Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
+import SLDarkBG from '../../../public/images/logos/SLDarkBG.png'
+
 
 const navLinks = [
   {
@@ -27,9 +30,11 @@ const Navbar = () => {
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
+          // target="_blank"
+          // rel="noopener noreferrer"
           className="text-2xl md:text-5xl text-white font-semibold "
         >
-          LOGO
+          <Image src={SLDarkBG} width={50} height={50}/>
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navOpen ? (

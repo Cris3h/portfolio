@@ -5,8 +5,6 @@ import TabButton from "./TabButton";
 import Link from "next/link";
 import { TAB_DATA } from "../utils";
 
-
-
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();
@@ -16,6 +14,7 @@ const AboutSection = () => {
       setTab(id);
     });
   };
+
   return (
     <section className="text-white">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
@@ -23,10 +22,19 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
           <p className="text-base md:text-lg">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
-            placeat enim adipisci velit, labore nobis deserunt tenetur quaerat
-            incidunt quam quo asperiores, voluptate consequatur sapiente modi
-            iste laborum vero cumque.
+            Welcome to my corner of the digital world! I'm Cris a passionate full stack developer immersed in the
+            dynamic world of technology. With expertise in the PERN stack, I
+            thrive on crafting innovative solutions that push boundaries and
+            shape the future. My journey into tech began unconventionally, with
+            a leap into a bootcamp instead of traditional academia. Since then,
+            my love for development has only deepened, fueled by a relentless
+            desire to understand and excel in this ever-evolving field. When
+            faced with challenges, I tackle them head-on, leveraging both
+            analytical prowess and collaborative teamwork. My commitment to
+            continuous learning drives me forward, ensuring I stay at the
+            forefront of industry trends. Join me as we explore the endless
+            possibilities of technology and make a meaningful impact in the IT
+            world together.
           </p>
           <div className="flex flex-row  mt-8">
             <TabButton
@@ -48,7 +56,9 @@ const AboutSection = () => {
               Experience
             </TabButton>
           </div>
-            <div className="mt-8 ">{TAB_DATA.find((t)=> t.id === tab).content}</div>
+          <div className="mt-8 ">
+            {TAB_DATA.find((t) => t.id === tab).content}
+          </div>
         </div>
       </div>
     </section>

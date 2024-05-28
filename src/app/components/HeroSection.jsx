@@ -15,8 +15,8 @@ const HeroSection = () => {
             <AnimationComponent />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-            suscipit maxime reiciendis
+          Hey there! Welcome. Explore my portfolio to discover my latest projects and expertise. <br/>
+          Here, you'll find a showcase of my skills and passion for innovation. Let's embark on a journey of discovery together
           </p>
           <div className="">
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-cyan-500 to-purple-500 hover:bg-slate-200 text-white">
