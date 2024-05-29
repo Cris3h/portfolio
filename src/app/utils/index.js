@@ -88,15 +88,15 @@ export const TAB_DATA = [
     content: (
       <ul>
         <li>
-          E-commerce{" "}
           <Link
             href={"https://snykers.vercel.app/"}
             target="_blank"
             rel="noopener noreferrer"
             className="text-purple-300 "
-          >
-            Snykers
+            >
+            Snykers - {" "}
           </Link>
+            E-commerce
         </li>
         <li>
           <Link
@@ -129,8 +129,9 @@ export const TAB_DATA = [
             rel="noopener noreferrer"
             className="text-purple-300 "
           >
-            Breast Cancer awareness
+            Liston Rosa -
           </Link>
+          {" "}Breast Cancer awareness project
         </li>
         <li>
           <Link
@@ -139,19 +140,20 @@ export const TAB_DATA = [
             rel="noopener noreferrer"
             className="text-purple-300 "
           >
-            To Do list with Auth method
+            To do list {" "} 
           </Link>
+           - with auth method
         </li>
         <li>
-        Dr Dosage - 
           <Link
           href={'https://drhelper.vercel.app/'}
           target="_blank"
           rel="noopener noreferrer"
           className="text-purple-300 "
           >
-            dosage guide - the pediatric helper you were looking for
+          Dr Dosage{" "}
           </Link>
+            - the pediatric dosage guide that you were looking for
         </li>
       </ul>
     ),
