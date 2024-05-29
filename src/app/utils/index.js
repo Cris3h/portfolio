@@ -143,14 +143,14 @@ export const TAB_DATA = [
           </Link>
         </li>
         <li>
-        Dosage guide - 
+        Dr Dosage - 
           <Link
           href={'https://drhelper.vercel.app/'}
           target="_blank"
           rel="noopener noreferrer"
           className="text-purple-300 "
           >
-            Dr Dosage - the pediatric helper you were looking for
+            dosage helper - the pediatric helper you were looking for
           </Link>
         </li>
       </ul>
