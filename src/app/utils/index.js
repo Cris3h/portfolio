@@ -150,7 +150,7 @@ export const TAB_DATA = [
           rel="noopener noreferrer"
           className="text-purple-300 "
           >
-            dosage helper - the pediatric helper you were looking for
+            dosage guide - the pediatric helper you were looking for
           </Link>
         </li>
       </ul>
